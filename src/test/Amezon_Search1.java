@@ -20,7 +20,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class Amezon_Search {
+public class Amezon_Search1 {
 
 
 
@@ -33,7 +33,7 @@ public class Amezon_Search {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(50000, TimeUnit.MILLISECONDS);
 		
-		
+		//Amezon database
 	          
 	            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Amazon","root","root");
 	            Statement stmt = con.createStatement();  
